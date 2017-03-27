@@ -4,6 +4,8 @@ Simple grippable component for React Native, powered by Animated API and some Rx
 
 ## API
 ```javascript
+import React from 'react';
+import { View, Image } from 'react-native'
 import Grippable from 'react-native-grippable-view';
 
 export default () => (
