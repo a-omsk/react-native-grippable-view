@@ -1,0 +1,45 @@
+{
+  "name": "react-native-grippable-view",
+  "version": "0.0.1",
+  "description": "Simple grippable view component for React Native powered by rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-omsk/react-native-grippable-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "gripper",
+    "grippable",
+    "view",
+    "drawer"
+  ],
+  "author": "Artur Shelashskiy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/a-omsk/react-native-grippable-view/issues"
+  },
+  "homepage": "https://github.com/a-omsk/react-native-grippable-view#readme",
+  "peerDependencies": {
+    "react-native": "*",
+    "react": "*",
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.18.0",
+    "flow-bin": "^0.42.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-react-native": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash.last": "^3.0.0"
+  }
+}
