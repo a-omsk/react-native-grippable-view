@@ -18,7 +18,6 @@ type Props = {
     minHeight: number,
     maxHeight: number,
     initExpandHeight: number,
-    gripperHeight: number,
     children?: any,
     styles?:Object,
     gripperStyles?: Object,
@@ -31,7 +30,7 @@ type State = {
     animatedHeight: Animated.Value
 }
 
-export default class Grippable extends Component {
+export default class GrippableView extends Component {
     props:Props;
     state:State;
     _panResponder:Object;
@@ -92,9 +91,9 @@ export default class Grippable extends Component {
     }
 
     spring(toValue:number) {
-        Animated.spring(this.state.animatedHeight, { toValue })
+        Animated.spring(this.state.animatedHeight, { toValue, ...this.props.animationOptions })
             .start(() =>
-                this.setState({ height: toValue, ...this.props.animationOptions }));
+                this.setState({ height: toValue }));
     }
 
     render() {

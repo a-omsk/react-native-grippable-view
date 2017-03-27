@@ -1,6 +1,6 @@
 {
   "name": "react-native-grippable-view",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple grippable view component for React Native powered by rxjs",
   "main": "index.js",
   "scripts": {
