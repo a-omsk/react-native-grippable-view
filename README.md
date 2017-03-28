@@ -25,3 +25,8 @@ export default () => (
   </Grippable>
 )
 ```
+     
+### TODO
+- [ ] Grippable directions (now only "top to bottom")
+- [ ] Component methods (e.g. expand / collapse)
+- [ ] Events
